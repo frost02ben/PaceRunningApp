@@ -1,7 +1,7 @@
-@import url(/styling/nav.css);
-@import url(/styling/banner.css);
-@import url(/styling/footer.css);
-@import url(/styling/my-running.css);
+@import url(/PaceRunningApp/styling/nav.css);
+@import url(/PaceRunningApp/styling/banner.css);
+@import url(/PaceRunningApp/styling/footer.css);
+@import url(/PaceRunningApp/styling/my-running.css);
 
 :root{
     --main: #ffa500;
