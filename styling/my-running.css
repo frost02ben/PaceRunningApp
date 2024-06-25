@@ -1,0 +1,43 @@
+.banner-alt{
+    height: 30vh;
+    background-image: url(/Assets/banner-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10vh 10vw !important;
+    color: white;
+}
+
+.input-times{
+    direction: column;
+}
+
+ul{
+    text-decoration: none;
+}
+
+.stats-block{
+    margin: 2vh auto;
+  border-bottom: 1px solid var(--main);
+  padding-bottom: 2vh;
+}
+
+input[type=text], input[type=number]{
+    border: none;
+    border-bottom: 1px solid var(--main);
+    padding: 3px;
+}
+
+.modal h1{
+    margin-bottom: 0 !important;
+}
+
+#content, #content2, #content3, #content4{
+    padding-left: 70px !important;
+}
+
+.stats-block i{
+    color: hsl(0, 0%, 60%);
+    width: 50px;
+}
+

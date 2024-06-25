@@ -1,0 +1,49 @@
+.navbar {
+    background: transparent;
+    font-family: "Roboto", sans-serif;
+    padding: 0 30vh;
+    transition: background-color .5s ease;
+    filter: drop-shadow(0 0 0 1px);
+  }
+
+  .navbar a {
+    color: white;
+    font-weight: 300;
+    font-size: large;
+    font-style: normal;
+  }
+  
+  .nav-item:hover {
+    transform: translateY(3px);
+    color: white;
+    transition: .3s ease;
+  }
+  
+  nav img {
+    width: 60px;
+  }
+
+  .scrolled{
+    background-color: var(--main);
+    color: white;
+    filter: drop-shadow(10px 2px 10px rgba(0, 0, 0, .3)) !important;
+  }
+
+ @media (max-width: 1000px){
+    .navbar{
+        padding: 0 15vh;
+    }
+  }
+
+  @media (max-width: 800px){
+    .navbar{
+        padding: 0 5vh;
+    }
+  }
+
+    @media (max-width: 600px){
+    .navbar{
+        padding: 0 0;
+        background-color: var(--main);
+    }
+  }

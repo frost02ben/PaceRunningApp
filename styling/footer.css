@@ -1,0 +1,29 @@
+footer{
+    background-color: var(--main);
+    text-align: center;
+    padding: 10vh 0;
+    color: white;
+    filter: drop-shadow(20px 5px 10px rgba(0, 0, 0, .6)) !important;
+}
+
+footer img{
+    width: 300px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer i{
+    font-size: 40px;
+    padding: 15px ;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    transition: .2s ease;
+}
+
+footer i:hover{
+    background-color: var(--secondary);
+    border: 1px solid var(--main);
+}
